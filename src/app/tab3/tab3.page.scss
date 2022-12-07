@@ -1,5 +1,4 @@
 ion-select {
-    --placeholder-color: #1d5e94;
     --placeholder-opacity: 1;
     width: 100%;
     justify-content: center;
@@ -10,3 +9,21 @@ ion-select {
     flex: 0 0 auto;
   }
   
+// ion-title {
+//   background-color: antiquewhite;
+// }
+
+ion-list{
+  padding: 2%;
+}
+
+ion-item{
+  border-style: groove;
+  padding: 0.25%;
+}
+
+h2{
+  text-align: center;
+  padding-bottom: 1%;
+  padding-top: 3%;
+}

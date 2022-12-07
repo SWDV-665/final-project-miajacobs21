@@ -1,0 +1,149 @@
+.custom-modal {
+    --backdrop-opacity: 1;
+    backdrop-filter: blur(3px);
+
+    &::part(backdrop) {
+        background-color: #000;
+    }
+
+    &::part(handle) {
+        background: var(--ion-color-primary);
+        width: 150px;
+        height: 6px;
+    }
+
+    &::part(content) {
+        border-radius: 0px;
+        box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 32%);
+    }
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+    
+  .exercises{
+    padding: 3%;
+  
+  }
+  
+  .workout{
+    margin-bottom: 1.75%;
+  }
+
+  .runningimg{
+    height: 15em;
+    width: 25em;
+    padding-bottom: 3em;
+  }
+
+  // ion-img{
+  //   height:8em;
+  //   width: 100%;
+  // }
+
+  .RunWorkout{
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    text-align: center;
+    font-size: x-large;
+    color: white; 
+  }
+
+  .WalkWorkout{
+    position: absolute;
+    bottom: 5%;
+    left: 35%;
+    text-align: center;
+    font-size: x-large;
+    color: black; 
+  }
+
+  .HikeWorkout{
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    text-align: center;
+    font-size: x-large;
+    color: white; 
+  }
+
+.BikeWorkout{
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  text-align: center;
+  font-size: x-large;
+  color: white; 
+}
+
+.RowWorkout{
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  text-align: center;
+  font-size: x-large;
+  color: white; 
+}
+
+.SwimWorkout{
+  position: absolute;
+  bottom: 10%;
+  left: 30%;
+  text-align: center;
+  font-size: x-large;
+  color: white; 
+}
+
+.BootCampWorkout{
+  position: absolute;
+  bottom: 80%;
+  left: 40%;
+  text-align: center;
+  font-size: x-large;
+  color: white; 
+}
+
+.CrossfitWorkout{
+  position: absolute;
+  bottom: 30%;
+  left: 3%;
+  text-align: center;
+  font-size: x-large;
+  color: white; 
+}
+
+.WeightliftingWorkout{
+  position: absolute;
+  bottom: 40%;
+  left: 10%;
+  text-align: center;
+  font-size: x-large;
+  color: white; 
+}
+
+.YogaWorkout{
+  position: absolute;
+  bottom: 45%;
+  left: 53%;
+  text-align: center;
+  font-size: x-large;
+  color: black; 
+}
+
+  // .container{
+  //   height:10em;
+  //   width:100%;
+  // }
+
+  ion-datetime-button {
+    padding-bottom: 1%;
+    padding-left: 70%;
+  }
+
+  ion-title{
+    padding-top: 1%;
+  }
