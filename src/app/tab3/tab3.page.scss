@@ -1,0 +1,37 @@
+ion-select {
+    --placeholder-opacity: 1;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  ion-select::part(placeholder),
+  ion-select::part(text) {
+    flex: 0 0 auto;
+  }
+  
+
+ion-list{
+  padding: 2%;
+}
+
+ion-item{
+  border-style: groove;
+  padding: 0.25%;
+}
+
+h3{
+  text-align: center;
+  padding-bottom: 1%;
+  padding-top: 3%;
+}
+
+.Example{
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+}
+
+.content{
+  background-color: antiquewhite;
+}
+

@@ -1,0 +1,130 @@
+.custom-modal {
+    --backdrop-opacity: 1;
+    backdrop-filter: blur(3px);
+
+    &::part(backdrop) {
+        background-color: #000;
+    }
+
+    &::part(handle) {
+        background: var(--ion-color-primary);
+        width: 150px;
+        height: 6px;
+    }
+
+    &::part(content) {
+        border-radius: 0px;
+        box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 32%);
+    }
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+    
+  .exercises{
+    padding: 3%;
+  
+  }
+  
+  .workout{
+    margin-bottom: 1.75%;
+  }
+
+  .runningimg{
+    height: 15em;
+    width: 25em;
+    padding-bottom: 3em;
+  }
+
+  .RunWorkout{
+    position: absolute;
+    bottom: 1%;
+    left: 15%;
+    text-align: center;
+    color: white; 
+  }
+
+  .WalkWorkout{
+    position: absolute;
+    bottom: 2%;
+    left: 38%;
+    text-align: center;
+    color: black; 
+  }
+
+  .HikeWorkout{
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    text-align: center;
+    color: white; 
+  }
+
+.BikeWorkout{
+  position: absolute;
+  bottom: 60%;
+  left: 5%;
+  text-align: center;
+  color: white; 
+}
+
+.RowWorkout{
+  position: absolute;
+  bottom: 2%;
+  left: 5%;
+  text-align: center;
+  color: white; 
+}
+
+.SwimWorkout{
+  position: absolute;
+  bottom: 2%;
+  left: 10%;
+  text-align: center;
+  color: white; 
+}
+
+.BootCampWorkout{
+  position: absolute;
+  top: 0%;
+  left: 8%;
+  text-align: center;
+  color: white; 
+}
+
+.CrossfitWorkout{
+  position: absolute;
+  bottom: 30%;
+  left: 3%;
+  text-align: center;
+  color: white; 
+}
+
+.WeightliftingWorkout{
+  position: absolute;
+  bottom: 40%;
+  left: 10%;
+  text-align: center;
+  color: white; 
+}
+
+.YogaWorkout{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: black; 
+}
+
+  ion-datetime-button {
+    padding-bottom: 1%;
+    padding-left: 70%;
+  }
+
+  ion-title{
+    padding-top: 1%;
+  }
+

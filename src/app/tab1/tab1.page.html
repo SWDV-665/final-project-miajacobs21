@@ -1,0 +1,205 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title size="large">Exercises
+      <ion-chip> 
+        <ion-avatar>
+          <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+        </ion-avatar>
+        <ion-label>Mia Jacobs</ion-label>
+      </ion-chip>
+
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+
+  <ion-img src="https://img.freepik.com/free-photo/full-shot-people-watching-man-gym_23-2149517282.jpg?w=1800&t=st=1670463361~exp=1670463961~hmac=0b3265f5a002541b0bbdc261adc9134ac3d9cacdc93f3ed4bd8f3d469cb2d4fa" alt="gym workout" class="imageHeader"></ion-img>
+
+  <ion-accordion-group>
+
+    <ion-accordion value="first" toggleIcon="caret-down-circle" toggleIconSlot="start">
+      <ion-item slot="header" color="light">
+        <ion-label>Running</ion-label>
+      </ion-item>
+
+      <ion-list slot="content" class="container">     
+        <ion-item>
+          <div class="RunWorkout">
+            <p></p>
+            <p> 3 Rounds | Run 1 Mile + Walk 1/4 Miles</p>
+            <ion-button (click)="presentAlert()">
+              <ion-icon slot="icon-only" name="add-outline"></ion-icon>
+            </ion-button>
+          </div>
+          <ion-img src="https://img.freepik.com/free-photo/young-fitness-woman-runner_1150-10576.jpg?w=1800&t=st=1670430376~exp=1670430976~hmac=7858584ba9da923b7ebbd0c5b7650b483c69d3d4a1bbc01c7ea8da1052e3821f" alt="The Wisconsin State Capitol building in Madison, WI at night"></ion-img>
+        </ion-item>
+      </ion-list>
+    </ion-accordion>
+
+    <ion-accordion value="second" toggleIcon="caret-down-circle" toggleIconSlot="start">
+      <ion-item slot="header" color="light">
+        <ion-label>Walking</ion-label>
+      </ion-item>
+
+      <ion-list slot="content" class="container">     
+        <ion-item>
+          <div class="WalkWorkout">
+            <p> 3 Mile Walk</p>
+            <ion-button (click)="presentAlert()">
+              <ion-icon slot="icon-only" name="add-outline"></ion-icon>
+            </ion-button>
+          </div>
+          <ion-img src="https://img.freepik.com/free-photo/full-length-portrait-from-back-male-traveler-exploring-summer-forest-vacation_197531-4405.jpg?w=1800&t=st=1670443189~exp=1670443789~hmac=7cf086a80dfcbb247bf364822408a7d0c54c5a91feb109253814790b7a6a504c" alt="The Wisconsin State Capitol building in Madison, WI at night"></ion-img>
+        </ion-item>
+      </ion-list>
+    </ion-accordion>
+
+    <ion-accordion value="third" toggleIcon="caret-down-circle" toggleIconSlot="start">
+      <ion-item slot="header" color="light">
+        <ion-label>Hiking</ion-label>
+      </ion-item>
+
+      <ion-list slot="content" class="container">     
+        <ion-item>
+          <div class="HikeWorkout">
+            <p>5 Miles | 20# Weighted Vest</p>
+            <ion-button (click)="presentAlert()">
+              <ion-icon slot="icon-only" name="add-outline"></ion-icon>
+            </ion-button>
+          </div>
+          <ion-img src="https://img.freepik.com/free-photo/silhouette-person-standing-top-hill-beautiful-colorful-sky-morning_181624-24501.jpg?w=1800&t=st=1670443570~exp=1670444170~hmac=7b0dabdf5f6e6393a545296bbc99c19c96e93fd32aee4bdb764f65b5061e1703" alt="The Wisconsin State Capitol building in Madison, WI at night"></ion-img>
+        </ion-item>
+      </ion-list>
+    </ion-accordion>
+
+    <ion-accordion value="forth" toggleIcon="caret-down-circle" toggleIconSlot="start">
+      <ion-item slot="header" color="light">
+        <ion-label>Biking</ion-label>
+      </ion-item>
+
+      <ion-list slot="content" class="container">     
+        <ion-item>
+          <div class="BikeWorkout">
+            <p>20 Miles Road Biking</p>
+            <ion-button (click)="presentAlert()">
+              <ion-icon slot="icon-only" name="add-outline"></ion-icon>
+            </ion-button>
+          </div>
+          <ion-img src="https://img.freepik.com/free-photo/cyclist-man-riding-bike-road_346278-1345.jpg?w=1800&t=st=1670443880~exp=1670444480~hmac=62f439a5a30f76df2f9f7d361c05d9ed08c3758656f6ab82e010015f180ca85c" alt="The Wisconsin State Capitol building in Madison, WI at night"></ion-img>
+        </ion-item>
+      </ion-list>
+    </ion-accordion>
+
+    <ion-accordion value="fifth" toggleIcon="caret-down-circle" toggleIconSlot="start">
+      <ion-item slot="header" color="light">
+        <ion-label>Rowing</ion-label>
+      </ion-item>
+
+      <ion-list slot="content" class="container">     
+        <ion-item>
+          <div class="RowWorkout">
+            <p>15 Min EMOM | 10 Calories</p>
+            <ion-button (click)="presentAlert()">
+              <ion-icon slot="icon-only" name="add-outline"></ion-icon>
+            </ion-button>
+          </div>
+          <ion-img src="https://img.freepik.com/free-photo/young-athletic-man-using-rowing-machine-while-exercising-health-club_637285-2520.jpg?w=1800&t=st=1670444306~exp=1670444906~hmac=49ddf362241cf23a44f3f4ebe2888518e62cf4cc557f55194ea3f6b977062169" alt="The Wisconsin State Capitol building in Madison, WI at night"></ion-img>
+        </ion-item>
+      </ion-list>
+    </ion-accordion>
+
+    <ion-accordion value="sixth" toggleIcon="caret-down-circle" toggleIconSlot="start">
+      <ion-item slot="header" color="light">
+        <ion-label>Swimming</ion-label>
+      </ion-item>
+
+      <ion-list slot="content" class="container">     
+        <ion-item>
+          <div class="SwimWorkout">
+            <p>10 rounds | 100yd Swim + 1 Min Rest</p>
+            <ion-button (click)="presentAlert()">
+              <ion-icon slot="icon-only" name="add-outline"></ion-icon>
+            </ion-button>
+          </div>
+          <ion-img src="https://img.freepik.com/free-photo/full-shot-swimmer-pool_23-2149028349.jpg?w=1800&t=st=1670444641~exp=1670445241~hmac=f84900e30c54b50398e12a4ce5aa1724768607ed1f6639ef5862a62bcf511f62"></ion-img>
+        </ion-item>
+      </ion-list>
+    </ion-accordion>
+
+    <ion-accordion value="seventh" toggleIcon="caret-down-circle" toggleIconSlot="start">
+      <ion-item slot="header" color="light">
+        <ion-label>Bootcamp</ion-label>
+      </ion-item>
+
+      <ion-list slot="content" class="container">     
+        <ion-item>
+          <div class="BootCampWorkout">
+            <p>20 Rounds | 5 Pullups, 10 Pushups, 15 Air Squats</p>
+            <ion-button (click)="presentAlert()">
+              <ion-icon slot="icon-only" name="add-outline"></ion-icon>
+            </ion-button>
+          </div>
+          <ion-img src="https://img.freepik.com/free-photo/young-powerful-sportsman-training-push-ups-dark-wall_176420-537.jpg?w=1800&t=st=1670445127~exp=1670445727~hmac=d3f65a17a4238bc00a0d4b2b5662af0d523e478c7aaabd38d0d173e38b53297c"></ion-img>
+        </ion-item>
+      </ion-list>
+    </ion-accordion>
+
+    <ion-accordion value="eighth" toggleIcon="caret-down-circle" toggleIconSlot="start">
+      <ion-item slot="header" color="light">
+        <ion-label>Crossfit</ion-label>
+      </ion-item>
+
+      <ion-list slot="content" class="container">     
+        <ion-item>
+          <div class="CrossfitWorkout">
+            <p>20 Min | 20 Lunges, 18 Pistols, 30' HSW</p>
+            <ion-button (click)="presentAlert()">
+              <ion-icon slot="icon-only" name="add-outline"></ion-icon>
+            </ion-button>
+          </div>
+          <ion-img src="https://img.freepik.com/free-photo/stronger-young-muscular-caucasian-athlete-practicing-lunges-gym-with-barbell-male-model-doing-strength-exercises-training-his-lower-body-wellness-healthy-lifestyle-bodybuilding-concept_155003-36806.jpg?w=1800&t=st=1670445315~exp=1670445915~hmac=9a572733a9c0de424dc58e1824a6576e40048c8060dde6b32d2cfc9edd449426"></ion-img>
+        </ion-item>
+      </ion-list>
+    </ion-accordion>
+
+    <ion-accordion value="ninth" toggleIcon="caret-down-circle" toggleIconSlot="start">
+      <ion-item slot="header" color="light">
+        <ion-label>Weightlifting</ion-label>
+      </ion-item>
+
+      <ion-list slot="content" class="container">     
+        <ion-item>
+          <div class="WeightliftingWorkout">
+            <p>5 Rounds | 12 Curls, 10 Shoulder Press </p>
+            <ion-button (click)="presentAlert()">
+              <ion-icon slot="icon-only" name="add-outline"></ion-icon>
+            </ion-button>
+          </div>
+          <ion-img src="https://img.freepik.com/free-photo/young-fitness-man-studio_7502-5008.jpg?w=1800&t=st=1670445922~exp=1670446522~hmac=d330dd4842f16ef1a28139580377294d9ceff28a147e134f1d9444d9efca7813"></ion-img>
+        </ion-item>
+      </ion-list>
+    </ion-accordion>
+
+    <ion-accordion value="tenth" toggleIcon="caret-down-circle" toggleIconSlot="start">
+      <ion-item slot="header" color="light">
+        <ion-label>Yoga</ion-label>
+      </ion-item>
+
+      <ion-list slot="content" class="container">     
+        <ion-item>
+          <div class="YogaWorkout">
+            <p>30 minutes | Begginner Yoga Class </p>
+            <ion-button (click)="presentAlert()">
+              <ion-icon slot="icon-only" name="add-outline"></ion-icon>
+            </ion-button>
+          </div>
+          <ion-img src="https://img.freepik.com/free-photo/beautiful-girl-is-engaged-yoga-studio_1157-29000.jpg?w=1800&t=st=1670446406~exp=1670447006~hmac=6e74a27e89a585bce00f9c4bad5dc8d12fdad64e0061af3ff12bdabbcae97090"></ion-img>
+        </ion-item>
+      </ion-list>
+    </ion-accordion>
+
+  </ion-accordion-group>
+
+</ion-content>
