@@ -1,28 +1,21 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>Exercises
-
-      <ion-chip>
+  <ion-toolbar color="primary">
+    <ion-title size="large">Exercises
+      <ion-chip> 
         <ion-avatar>
           <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
         </ion-avatar>
         <ion-label>Mia Jacobs</ion-label>
       </ion-chip>
 
-      <ion-datetime-button datetime="datetime"></ion-datetime-button>
-
-      <ion-modal [keepContentsMounted]="true">
-        <ng-template>
-          <ion-datetime id="datetime"></ion-datetime>
-        </ng-template>
-      </ion-modal>
     </ion-title>
-    
-  </ion-toolbar>  
+  </ion-toolbar>
 </ion-header>
 
 
 <ion-content>
+
+  <ion-img src="https://img.freepik.com/free-photo/full-shot-people-watching-man-gym_23-2149517282.jpg?w=1800&t=st=1670463361~exp=1670463961~hmac=0b3265f5a002541b0bbdc261adc9134ac3d9cacdc93f3ed4bd8f3d469cb2d4fa" alt="gym workout" class="imageHeader"></ion-img>
 
   <ion-accordion-group>
 
@@ -53,7 +46,7 @@
       <ion-list slot="content" class="container">     
         <ion-item>
           <div class="WalkWorkout">
-            <p> 3 Miles Brisk Walk</p>
+            <p> 3 Mile Walk</p>
             <ion-button (click)="presentAlert()">
               <ion-icon slot="icon-only" name="add-outline"></ion-icon>
             </ion-button>
@@ -198,9 +191,6 @@
         <ion-item>
           <div class="YogaWorkout">
             <p>30 minutes | Begginner Yoga Class </p>
-            <ion-button>
-              <ion-icon slot="icon-only" name="play"></ion-icon>
-            </ion-button>
             <ion-button (click)="presentAlert()">
               <ion-icon slot="icon-only" name="add-outline"></ion-icon>
             </ion-button>

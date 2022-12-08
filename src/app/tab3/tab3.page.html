@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title size="large">Exercise Journal Entries
       <ion-chip>
         <ion-avatar>
@@ -13,16 +13,16 @@
   </ion-toolbar>  
 </ion-header>
 
-<h2>Enter Custom Workout Journal Entry</h2>
-<ion-content padding>
+
+    <h3>Enter Custom Workout Journal Entry</h3>
+
+
+<ion-content class="content">
   <ion-list>
     <ion-item-sliding *ngFor="let item of items; let i = index">
 
-
       <ion-item>
-        <!-- <h1 slot="end">{{item.date}}</h1> -->
         <p>{{item.workout}} : {{item.entry}}</p>
-
 
         <ion-datetime-button datetime="datetime" slot="end"></ion-datetime-button>
 
@@ -33,6 +33,7 @@
         </ion-modal>
       </ion-item>
 
+      
 
 
       <ion-item-options>
@@ -40,9 +41,9 @@
           <ion-icon name="create"></ion-icon>
           Edit
         </ion-button>
-        <ion-button (click)="removeItem(item, i)" ion-button color="success" icon-start>
+        <ion-button (click)="removeItem(item, i)" ion-button color="danger" icon-start>
           <ion-icon name="trash"></ion-icon>
-          Done
+          Delete
         </ion-button>
       </ion-item-options>
     </ion-item-sliding>

@@ -13,16 +13,15 @@ export class Tab3Page {
   title = "Goals";
 
   items = [
-    {
-      entry:"Enter Journal Entry", workout: "Enter Exercise"
-  }
+  //   {
+  //     entry:"Journal Entry", workout: "Exercise"
+  // }
   ]
 
 
   constructor(public navCtrl: NavController, public toastCtrl: ToastController, private alertController: AlertController) {}
 
 
-// different from video - found answer here - https://forum.ionicframework.com/t/toast-present-is-not-a-function/155889
   async removeItem(item, index) {
     console.log("Removing Item - ", item, index);
     const toast = await this.toastCtrl.create({
@@ -81,14 +80,11 @@ export class Tab3Page {
     await alert.present();
   }
 
-
   addItem() {
     console.log("Adding Item");
     this.presentAlert();
   }
 
-  
-// code from https://ionicframework.com/docs/api/alert
   async presentAlert() {
     console.log("Adding Item... ");
     const alert = await this.alertController.create({

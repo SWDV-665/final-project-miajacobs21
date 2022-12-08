@@ -3,6 +3,7 @@ import { ModalController } from '@ionic/angular';
 import { SimpleModalPage } from '../simple-modal/simple-modal.page';
 import { AlertController } from '@ionic/angular';
 
+
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
@@ -12,7 +13,8 @@ export class Tab1Page {
 
   constructor(private modalCtrl: ModalController, private alertController: AlertController) {}
 
-  async presentModal() {
+
+  async presentModal(): Promise<void> {
     const modal = await this.modalCtrl.create({
       component: SimpleModalPage,
       breakpoints: [0, 0.4, 1],
